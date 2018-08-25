@@ -1,0 +1,12 @@
+<link rel="stylesheet" href="app.css">
+<h1>This is Posts.ejs</h1>
+<p>Good luck reading data with such a small font !</p>
+<% data.forEach(function(apiData){ %>
+  <div class="center">
+    <ol>
+      <li class="apiTitle"><%= apiData["title"] %></li>
+      <li class="apiBody"><%= apiData["body"] %></li>
+    </ol>
+  </div>
+
+<% }) %>

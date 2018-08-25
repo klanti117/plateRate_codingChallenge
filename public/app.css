@@ -1,0 +1,15 @@
+/* Only the title and body of all the posts should be displayed in an centered and ordered HTML list on the DOM.
+The titles should have a font size of 16px and color: #3cb371. The body should have a font size of 12px color: #4A4A4A. */
+.apiBody{
+  font-size:12px;
+  color:#4A4A4A;
+}
+.apiTitle{
+  color:#3cb371;
+  font-size:16px;
+}
+.center {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
